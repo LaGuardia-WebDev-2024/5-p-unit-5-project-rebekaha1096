@@ -1,16 +1,16 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] height: and width:
-[  ] margin: and padding: 
-[  ] Three Images
+[ yes ] <div> and <span>
+[ yes ] height: and width:
+[  yes] margin: and padding: 
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
 [ no ] Feature 3 - Navbar
 [ no ] Feature 4 - Shaking Animation
-[ no ] Feature 5 - Gradient Background
+[ yes ] Feature 5 - Gradient Background
 [ no ] Feature 6 - Spotify Playlist
 -->
 
@@ -32,75 +32,90 @@ Select ONE Additional Feature to Add
         font-size: 30px;
       }
 
-/*       font-family: "Poiret One", sans-serif; */
+      /*       font-family: "Poiret One", sans-serif; */
       #BRYSON-TILLER {
-        color: rgb(243, 197, 197 );
+        color: rgb(243, 19, 197);
       }
       #SZA {
-        color: rgb(243, 197, 197 );
+        color: rgb(243, 19, 197);
       }
 
       body {
-        background-image: url(https://marketplace.canva.com/EAFPnKOPPyk/1/0/1600w/canva-colorful-paint-mix-artistic-album-cover-FjZrZaTbbjo.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 58%;
+        margin: auto;
         background-attachment: fixed;
+        background-image: radial-gradient(beige,pink);
         font-family: "Poiret One";
+        
       }
       h3 {
         color: rgb(229, 226, 201);
       }
 
       .there {
-        color:pink
+        color: pink;
       }
       #info {
-        background-color: rgb( 229, 226, 201);
+        background-color: rgb(229, 226, 201);
       }
       .with {
         color: rgb(234, 178, 208);
       }
-      .info
-      {
-        background: rgb(223, 211, 169);
-        width:70%;
-        height:180px;
+      .info {
+        background: rgb(229, 226, 201);
+        width: 60%;
+        height: 200px;
         overflow-y: auto;
       }
-      .pic{
-        width: 70%
+      .pic {
+        width: 70%;
       }
+       .photo-gallery {
+        background: rgb(229, 226, 201);
+      }
+      .photo {
+        width: 300px;
+        margin: 20px;
+        border: 5px solid darkblue;
+        padding: 5px;
+      }
+      {
+       
+      }
+      
       
     </style>
   </head>
   <body>
+    
     <h1>FAVORITE ARTISTS</h1>
     <h2 id="SZA">SZA</h2>
-    <img
-      src="https://media.pitchfork.com/photos/638902d2e5592afa444298b9/master/w_1600%2Cc_limit/SZA-SOS.jpg"
-      width="200"
-    />
+    <div class="photo-gallery">
+      <img
+        class="photo"
+        src="https://media.pitchfork.com/photos/638902d2e5592afa444298b9/master/w_1600%2Cc_limit/SZA-SOS.jpg"
+        width="200"
+      />
+    </div>
 
     <h2>FRANK OCEAN</h2>
-    <img
-    src=https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg
-    width=200 />
+    <div class="info">
+      <img
+      src=https://upload.wikimedia.org/wikipedia/en/a/a0/Blonde_-_Frank_Ocean.jpeg
+      width=200 />
+    </div>
     <h2 id="BRYSON-TILLER">BRYSON TILLER</h2>
     <img
     src=https://m.media-amazon.com/images/I/71EQ8ybUfzL._UF1000,1000_QL80_.jpg
     width=200 />
 
-    <h3>WHY ARE THEY MY <strong class="favorites">FAVORITES</strong> </h3>
-    <div id="info"
-        
-<p>
-  <span class="there"><li>I like there flow</span></li>
-    <li>The beats they use are good</li>
-    <strong class="with"
-      ><li>Conistent with there music and have concerts</li></strong
-    >
+    <h3>WHY ARE THEY MY <strong class="favorites">FAVORITES</strong></h3>
+    <div id="info">
+      <span class="there"><li>I like there flow</li></span>
+      <li>The beats they use are good</li>
+      <strong class="with"
+        ><li>Conistent with there music and have concerts</li></strong
+      >
     </div>
   </body>
-    </p>
-  
 </html>
